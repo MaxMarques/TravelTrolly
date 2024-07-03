@@ -1,0 +1,16 @@
+/* 
+  Languages.strings
+  TravelTrolley
+
+  Created by Marques on 4/23/24.
+  
+*/
+
+/* Toast Message Error */
+
+"title0" = "Error";
+"body0" = "An error occurred while loading the data. Please try again later.";
+
+/* Carousel Selector */
+
+"subtitle0" = "Swipe for all trolley routes";

@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D2FC01A2BD19F54009DED54 /* MapComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2FC0192BD19F54009DED54 /* MapComponent.swift */; };
+		8D61F32E2BD889B700D6C00D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D61F32C2BD889B700D6C00D /* Localizable.strings */; };
+		8D61F3532BDB376600D6C00D /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 8D61F3522BDB376600D6C00D /* GoogleMaps */; };
+		8D61F3552BDB376600D6C00D /* GoogleMapsBase in Frameworks */ = {isa = PBXBuildFile; productRef = 8D61F3542BDB376600D6C00D /* GoogleMapsBase */; };
+		8D61F3572BDB376600D6C00D /* GoogleMapsCore in Frameworks */ = {isa = PBXBuildFile; productRef = 8D61F3562BDB376600D6C00D /* GoogleMapsCore */; };
+		8D61F3592BDB376600D6C00D /* GoogleMapsM4B in Frameworks */ = {isa = PBXBuildFile; productRef = 8D61F3582BDB376600D6C00D /* GoogleMapsM4B */; };
+		8D61F35B2BDBF75700D6C00D /* carouselSelectorComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D61F35A2BDBF75700D6C00D /* carouselSelectorComponent.swift */; };
+		8D61F35D2BDC43C700D6C00D /* hueColorDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D61F35C2BDC43C700D6C00D /* hueColorDetection.swift */; };
+		8D61F3612BE00FDF00D6C00D /* GetTrolleyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D61F3602BE00FDF00D6C00D /* GetTrolleyModels.swift */; };
+		8D61F3632BE0124000D6C00D /* TrolleyApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D61F3622BE0124000D6C00D /* TrolleyApi.swift */; };
+		8D6B16482BCEF09600801086 /* TravelTrollyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B16472BCEF09600801086 /* TravelTrollyApp.swift */; };
+		8D6B164C2BCEF09700801086 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D6B164B2BCEF09700801086 /* Assets.xcassets */; };
+		8D6B164F2BCEF09700801086 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D6B164E2BCEF09700801086 /* Preview Assets.xcassets */; };
+		8D6B16782BCF574100801086 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B16772BCF574100801086 /* MainView.swift */; };
+		8D6B167C2BD00E7000801086 /* LaunchComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B167B2BD00E7000801086 /* LaunchComponent.swift */; };
+		8D6B16832BD0149000801086 /* PlayfairDisplay-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D6B16822BD0149000801086 /* PlayfairDisplay-ExtraBold.ttf */; };
+		8D7ABEE32BD6F6BE00724E27 /* TrolleyRoutesApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7ABEE22BD6F6BE00724E27 /* TrolleyRoutesApi.swift */; };
+		8D7ABEE72BD6FB7B00724E27 /* GetTrolleyRoutesModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7ABEE62BD6FB7B00724E27 /* GetTrolleyRoutesModels.swift */; };
+		8D7ABEEC2BD7E91900724E27 /* ToastMessageModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7ABEEB2BD7E91900724E27 /* ToastMessageModule.swift */; };
+		8D7ADC742BD1B8EB005E2011 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7ADC732BD1B8EB005E2011 /* LocationManager.swift */; };
+		8D7ADC782BD1BE1A005E2011 /* CenterLocationComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7ADC772BD1BE1A005E2011 /* CenterLocationComponent.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D2FC0192BD19F54009DED54 /* MapComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapComponent.swift; sourceTree = "<group>"; };
+		8D61F32D2BD889B700D6C00D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8D61F32F2BD889C100D6C00D /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8D61F35A2BDBF75700D6C00D /* carouselSelectorComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carouselSelectorComponent.swift; sourceTree = "<group>"; };
+		8D61F35C2BDC43C700D6C00D /* hueColorDetection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hueColorDetection.swift; sourceTree = "<group>"; };
+		8D61F3602BE00FDF00D6C00D /* GetTrolleyModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTrolleyModels.swift; sourceTree = "<group>"; };
+		8D61F3622BE0124000D6C00D /* TrolleyApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrolleyApi.swift; sourceTree = "<group>"; };
+		8D6B16442BCEF09600801086 /* TravelTrolley.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelTrolley.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D6B16472BCEF09600801086 /* TravelTrollyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelTrollyApp.swift; sourceTree = "<group>"; };
+		8D6B164B2BCEF09700801086 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D6B164E2BCEF09700801086 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8D6B16772BCF574100801086 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8D6B167B2BD00E7000801086 /* LaunchComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchComponent.swift; sourceTree = "<group>"; };
+		8D6B16822BD0149000801086 /* PlayfairDisplay-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-ExtraBold.ttf"; sourceTree = "<group>"; };
+		8D7ABEE22BD6F6BE00724E27 /* TrolleyRoutesApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrolleyRoutesApi.swift; sourceTree = "<group>"; };
+		8D7ABEE62BD6FB7B00724E27 /* GetTrolleyRoutesModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTrolleyRoutesModels.swift; sourceTree = "<group>"; };
+		8D7ABEEB2BD7E91900724E27 /* ToastMessageModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastMessageModule.swift; sourceTree = "<group>"; };
+		8D7ADC732BD1B8EB005E2011 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		8D7ADC772BD1BE1A005E2011 /* CenterLocationComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterLocationComponent.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D6B16412BCEF09600801086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D61F3532BDB376600D6C00D /* GoogleMaps in Frameworks */,
+				8D61F3572BDB376600D6C00D /* GoogleMapsCore in Frameworks */,
+				8D61F3592BDB376600D6C00D /* GoogleMapsM4B in Frameworks */,
+				8D61F3552BDB376600D6C00D /* GoogleMapsBase in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D6B163B2BCEF09600801086 = {
+			isa = PBXGroup;
+			children = (
+				8D61F32C2BD889B700D6C00D /* Localizable.strings */,
+				8D6B16462BCEF09600801086 /* TravelTrolly */,
+				8D6B16452BCEF09600801086 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D6B16452BCEF09600801086 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D6B16442BCEF09600801086 /* TravelTrolley.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D6B16462BCEF09600801086 /* TravelTrolly */ = {
+			isa = PBXGroup;
+			children = (
+				8D7ABEEA2BD7E8E100724E27 /* Modules */,
+				8D6B16762BCF56FB00801086 /* Models */,
+				8D6B16752BCF56DE00801086 /* Managers */,
+				8D6B16742BCF56D500801086 /* Components */,
+				8D6B16732BCF568400801086 /* Api */,
+				8D6B16722BCF566C00801086 /* Views */,
+				8D6B16472BCEF09600801086 /* TravelTrollyApp.swift */,
+				8D6B16822BD0149000801086 /* PlayfairDisplay-ExtraBold.ttf */,
+				8D6B164B2BCEF09700801086 /* Assets.xcassets */,
+				8D6B164D2BCEF09700801086 /* Preview Content */,
+			);
+			path = TravelTrolly;
+			sourceTree = "<group>";
+		};
+		8D6B164D2BCEF09700801086 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8D6B164E2BCEF09700801086 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8D6B16722BCF566C00801086 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8D6B16772BCF574100801086 /* MainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8D6B16732BCF568400801086 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				8D7ABEE22BD6F6BE00724E27 /* TrolleyRoutesApi.swift */,
+				8D61F3622BE0124000D6C00D /* TrolleyApi.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		8D6B16742BCF56D500801086 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8D6B167B2BD00E7000801086 /* LaunchComponent.swift */,
+				8D2FC0192BD19F54009DED54 /* MapComponent.swift */,
+				8D7ADC772BD1BE1A005E2011 /* CenterLocationComponent.swift */,
+				8D61F35A2BDBF75700D6C00D /* carouselSelectorComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8D6B16752BCF56DE00801086 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				8D7ADC732BD1B8EB005E2011 /* LocationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		8D6B16762BCF56FB00801086 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8D7ABEE62BD6FB7B00724E27 /* GetTrolleyRoutesModels.swift */,
+				8D61F3602BE00FDF00D6C00D /* GetTrolleyModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8D7ABEEA2BD7E8E100724E27 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				8D7ABEEB2BD7E91900724E27 /* ToastMessageModule.swift */,
+				8D61F35C2BDC43C700D6C00D /* hueColorDetection.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D6B16432BCEF09600801086 /* TravelTrolley */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D6B16682BCEF09800801086 /* Build configuration list for PBXNativeTarget "TravelTrolley" */;
+			buildPhases = (
+				8D6B16402BCEF09600801086 /* Sources */,
+				8D6B16412BCEF09600801086 /* Frameworks */,
+				8D6B16422BCEF09600801086 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TravelTrolley;
+			packageProductDependencies = (
+				8D61F3522BDB376600D6C00D /* GoogleMaps */,
+				8D61F3542BDB376600D6C00D /* GoogleMapsBase */,
+				8D61F3562BDB376600D6C00D /* GoogleMapsCore */,
+				8D61F3582BDB376600D6C00D /* GoogleMapsM4B */,
+			);
+			productName = TravelTrolly;
+			productReference = 8D6B16442BCEF09600801086 /* TravelTrolley.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D6B163C2BCEF09600801086 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					8D6B16432BCEF09600801086 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 8D6B163F2BCEF09600801086 /* Build configuration list for PBXProject "TravelTrolley" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+				es,
+			);
+			mainGroup = 8D6B163B2BCEF09600801086;
+			packageReferences = (
+				8D61F3512BDB376600D6C00D /* XCRemoteSwiftPackageReference "ios-maps-sdk" */,
+			);
+			productRefGroup = 8D6B16452BCEF09600801086 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D6B16432BCEF09600801086 /* TravelTrolley */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D6B16422BCEF09600801086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D61F32E2BD889B700D6C00D /* Localizable.strings in Resources */,
+				8D6B164F2BCEF09700801086 /* Preview Assets.xcassets in Resources */,
+				8D6B16832BD0149000801086 /* PlayfairDisplay-ExtraBold.ttf in Resources */,
+				8D6B164C2BCEF09700801086 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D6B16402BCEF09600801086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D6B16482BCEF09600801086 /* TravelTrollyApp.swift in Sources */,
+				8D7ABEE32BD6F6BE00724E27 /* TrolleyRoutesApi.swift in Sources */,
+				8D61F35D2BDC43C700D6C00D /* hueColorDetection.swift in Sources */,
+				8D6B16782BCF574100801086 /* MainView.swift in Sources */,
+				8D7ADC742BD1B8EB005E2011 /* LocationManager.swift in Sources */,
+				8D61F35B2BDBF75700D6C00D /* carouselSelectorComponent.swift in Sources */,
+				8D7ADC782BD1BE1A005E2011 /* CenterLocationComponent.swift in Sources */,
+				8D7ABEEC2BD7E91900724E27 /* ToastMessageModule.swift in Sources */,
+				8D61F3632BE0124000D6C00D /* TrolleyApi.swift in Sources */,
+				8D61F3612BE00FDF00D6C00D /* GetTrolleyModels.swift in Sources */,
+				8D2FC01A2BD19F54009DED54 /* MapComponent.swift in Sources */,
+				8D7ABEE72BD6FB7B00724E27 /* GetTrolleyRoutesModels.swift in Sources */,
+				8D6B167C2BD00E7000801086 /* LaunchComponent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8D61F32C2BD889B700D6C00D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D61F32D2BD889B700D6C00D /* en */,
+				8D61F32F2BD889C100D6C00D /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D6B16662BCEF09800801086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D6B16672BCEF09800801086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D6B16692BCEF09800801086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TravelTrolly/Preview Content\"";
+				DEVELOPMENT_TEAM = Y693LUKF3T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TravelTrolly/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Travel Trolley";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your current location will be displayed on the map and used for directions, nearby search results, and estimated travel times.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TravelTrolleyMiamiBeach.TravelTrolley;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8D6B166A2BCEF09800801086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TravelTrolly/Preview Content\"";
+				DEVELOPMENT_TEAM = Y693LUKF3T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TravelTrolly/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Travel Trolley";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your current location will be displayed on the map and used for directions, nearby search results, and estimated travel times.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TravelTrolleyMiamiBeach.TravelTrolley;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D6B163F2BCEF09600801086 /* Build configuration list for PBXProject "TravelTrolley" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D6B16662BCEF09800801086 /* Debug */,
+				8D6B16672BCEF09800801086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D6B16682BCEF09800801086 /* Build configuration list for PBXNativeTarget "TravelTrolley" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D6B16692BCEF09800801086 /* Debug */,
+				8D6B166A2BCEF09800801086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8D61F3512BDB376600D6C00D /* XCRemoteSwiftPackageReference "ios-maps-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-maps-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8D61F3522BDB376600D6C00D /* GoogleMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8D61F3512BDB376600D6C00D /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMaps;
+		};
+		8D61F3542BDB376600D6C00D /* GoogleMapsBase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8D61F3512BDB376600D6C00D /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMapsBase;
+		};
+		8D61F3562BDB376600D6C00D /* GoogleMapsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8D61F3512BDB376600D6C00D /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMapsCore;
+		};
+		8D61F3582BDB376600D6C00D /* GoogleMapsM4B */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8D61F3512BDB376600D6C00D /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMapsM4B;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8D6B163C2BCEF09600801086 /* Project object */;
+}

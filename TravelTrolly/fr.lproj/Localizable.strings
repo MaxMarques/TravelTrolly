@@ -1,0 +1,16 @@
+/* 
+  Languages.strings
+  TravelTrolley
+
+  Created by Marques on 4/23/24.
+  
+*/
+
+/* Toast Message Error */
+
+"title0" = "Erreur";
+"body0" = "Une erreur est survenue lors du chargement des données. Merci de réessayer plus tard.";
+
+/* Carousel Selector */
+
+"subtitle0" = "Balayez pour toutes les lignes de trolley";
